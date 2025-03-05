@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: #cc956e;
+    color: #000000
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    height: auto;
+    margin: 100px auto;
+    background: #ffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+
+}
+
+h1 {
+    font-family: 'Book Antiqua', serif;
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+    font-family: Verdana, sans-serif;
+    background-color: #cc956e;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #cc956e;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;   
+}
+
+button:hover {
+    background-color: #a4754c;
+}
